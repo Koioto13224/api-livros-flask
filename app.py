@@ -6,6 +6,7 @@ livros = [
     {"id": 1, "titulo": "Dom Casmurro", "autor": "Machado de Assis", "ano": 1899},
     {"id": 2, "titulo": "O Cortiço", "autor": "Aluísio Azevedo", "ano": 1890},
     {"id": 3, "titulo": "A Hora da Estrela", "autor": "Clarice Lispector", "ano": 1977},
+    {"id": 4, "titulo": "Grande Sertão: Veredas", "autor": "João Guimarães Rosa", "ano": 1956},
 ]
 
 @app.route("/livros", methods=["GET"])
